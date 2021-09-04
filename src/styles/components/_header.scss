@@ -1,0 +1,64 @@
+@media screen and (min-width: 200px) {
+    .header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        background-color: $header-color;
+        color: $rev-text-color;
+
+        .logo-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-image {
+            width: 23px;
+            height: 23px;
+            background-color: $rev-text-color;
+            border-radius: 50%;
+            margin-right: 5px;
+            position: relative;
+
+            &--inner {
+                content: "";
+                display: block;
+                width: 19px;
+                height: 19px;
+                border-radius: 50%;
+                background-color: $header-color;
+                position: absolute;
+                right: -1px;
+            }
+        }
+
+        .logo-title {
+            font-size: 2rem;
+            font-weight: 400;
+            display: flex;
+        }
+
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        .logo-image {
+            width: 30px;
+            height: 30px;
+
+            &--inner {
+                width: 26px;
+                height: 26px;
+            }
+        }
+
+        .logo-title {
+            font-size: 2.4rem;
+        }
+    }
+}

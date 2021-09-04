@@ -1,2 +1,10 @@
 @import './styles/global/reset';
-@import './styles/mobile/header';
+@import './styles/global/vars';
+@import './styles/components/loading-spinner';
+@import './styles/components/header';
+@import './styles/components/main';
+@import './styles/components/breadcrumb';
+@import './styles/components/short-post';
+@import './styles/components/pagination';
+@import './styles/components/full-post';
+@import './styles/components/comments';

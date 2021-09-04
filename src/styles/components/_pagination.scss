@@ -1,0 +1,26 @@
+@media screen and (min-width: 200px) {
+    .pagination-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 5px;
+            border: 1px solid $header-color;
+            border-radius: $border-radius;
+            color: $main-text-color;
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+
+        .active-page {
+            background-color: $header-color;
+            color: $rev-text-color;
+        }
+    }
+}
